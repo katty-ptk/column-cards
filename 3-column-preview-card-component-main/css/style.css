@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: hsl(0, 0%, 95%);
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    height: 45%;
+    font-family: 'Lexend Deca', sans-serif;
+
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    width: 33%;
+    height: 100%;
+    padding: 0px 50px;
+}
+
+.container div img {
+    width: 100px;
+}
+
+.container div h1 {
+    color: hsl(0, 0%, 95%);
+    text-transform: uppercase;
+}
+
+.container div p {
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.container div button {
+    background: hsl(0, 0%, 95%);
+    width: 60%;
+    height: 50px;
+    text-transform: capitalize;
+    border-radius: 50px;
+    border: none;
+    left: 30px;
+    font-weight: bold;
+    font-size: 1.1em;
+    font-family: 'Lexend Deca', sans-serif;
+    cursor: pointer;
+}
+
+.container .sedan {
+    background: hsl(31, 72%, 57%);
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+}
+
+.container .sedan button {
+    color:hsl(31, 72%, 57%);
+}
+
+.container .suvs {
+    background: hsl(184, 100%, 22%);
+}
+
+.container .suvs button {
+    color:hsl(184, 100%, 22%);
+}
+
+.container .luxury {
+    background: hsl(179, 100%, 13%);
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+
+.container .luxury button {
+    color:hsl(179, 100%, 13%);
+}
