@@ -86,3 +86,36 @@ body {
 .container .luxury button {
     color:hsl(179, 100%, 13%);
 }
+
+@media screen and ( max-width: 375px ) {
+    .container {
+        flex-direction: column;
+        margin-top: 80px;
+        height: 100vh;
+    }
+
+    .container div {
+        width: 60%;     
+        height: 100%; 
+        font-size: 12px;
+    }
+
+    .container div img {
+        width: 50px;
+    }
+
+    .container div button {
+        width: 80%;
+        height: 40px;
+    }
+    
+    .container .sedan {
+        border-top-right-radius: 18px;
+        border-bottom-left-radius: 0px;
+    }
+
+    .container .luxury {
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 18px;
+    }
+}
